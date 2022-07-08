@@ -10,6 +10,16 @@ with open(csvpath) as csvfile:
 
 # Count all of the lines in the file
     lines = len(list(csvreader))
-    print((lines))
 
 # Add the values of the 2nd line (profit/losses) skipping the header
+      
+
+      
+# Print out the financial analysis
+   # print("Financial Analysis:")
+    #print("-----------------------------")
+    #print(f"Total Months: {lines}")
+    #print(f"Total: {total}")
+    #print(f"Average Change: {avgChange}")
+    #print(f"Greatest Increase in Profits: {greatIncr}")
+    #print(f"Greatest Decrease in Profits: {greatDecr}")
