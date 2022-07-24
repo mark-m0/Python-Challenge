@@ -20,3 +20,4 @@ The election results are expected to produce the following information:
   -Total votes acquired by each candidate
   -Winner of the vote based on total votes
   
+Although incomplete at this time, I seek to further the outputs and write the .txt files as an update in the future.
