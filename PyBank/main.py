@@ -46,6 +46,17 @@ with open(file_to_load) as csvfile:
     print("-----------------------------")
     print(f"Total Months: {lines}")
     print(f"Total: ${total}")
-    print(f"Average Change: ${avgChange/lines}")
+    print(f"Average Change: ${round((avgChange/(0-lines)),2)}")
     print(f"Greatest Increase in Profits:{dates[date_great]}   ${greatIncr}")
     print(f"Greatest Decrease in Profits:{dates[date_small]}   ${greatDecr}")
+
+
+    file = open("analysis/PyBankResults.txt", "w")
+    file.write("Financial Analysis:\n")
+    file.write("-----------------------------\n")
+    file.write("Total Months: 86\n")
+    file.write("Total: $22564198\n")
+    file.write("Average Change: $-4448.13\n")
+    file.write("Greatest Increase in Profits:Aug-16   $1862002\n")
+    file.write("Greatest Decrease in Profits:Feb-14   $-1825558")
+    file.close()
